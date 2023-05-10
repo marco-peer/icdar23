@@ -1,0 +1,59 @@
+
+icdar2017-train: 
+    in_dir : /data/mpeer/icdar2017-train_binarized
+    out_dir : /data/mpeer/resources/icdar2017_train_sift_patches_binarized_1000
+    win_size : 32
+    patches_per_page : -1       
+    num_of_cluster : 1000
+    sigma : 2.5
+    black_pixel_thresh : -1
+    white_pixel_thresh : 0.95
+    centered : True
+    
+icdar2017-test:
+    in_dir : /data/mpeer/icdar2017-test_binarized
+    out_dir : /data/mpeer/resources/icdar2017_test_sift_patches_binarized_2kpp
+    win_size : 32
+    patches_per_page : 2000       
+    sigma : 2.5
+    black_pixel_thresh : -1
+    white_pixel_thresh : 0.95
+    centered : True
+
+
+icdar2013_train : 
+    in_dir : /data/mpeer/icdar2013-train
+    out_dir : /data/mpeer/resources/icdar2013_train_sift_patches_100
+    win_size : 32
+    patches_per_page : -1       
+    num_of_cluster : 100
+    sigma : 1.6
+    black_pixel_thresh : -1
+    white_pixel_thresh : 0.95
+    centered : True
+
+icdar2013_test :
+    in_dir : /data/mpeer/icdar2013-test
+    out_dir : /data/mpeer/resources/icdar2013_test_sift_patches_binarized
+    win_size : 32
+    patches_per_page : 2000       
+    sigma : 1.6
+    black_pixel_thresh : -1
+    white_pixel_thresh : 0.95
+    centered : True
+
+icdar19_test :
+    in_dir : /data/mpeer/databases/wi_comp_19_test
+    out_dir : /data/mpeer/resources/wi_comp_19_test_patches
+    win_size : 32
+    patches_per_page : 2000       
+    sigma : 3.5
+    edge_pixels : 0.125
+
+icdar17_test :
+    in_dir : /data/mpeer/icdar2017-test-color
+    out_dir : /data/mpeer/resources/icdar2017-test-color_patches
+    win_size : 32
+    patches_per_page : 2000       
+    sigma : 2.5
+    edge_pixels : 0.125

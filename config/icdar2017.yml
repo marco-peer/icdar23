@@ -1,0 +1,50 @@
+trainset : 
+  dataset: icdar2017
+  set: train
+
+testset : 
+  dataset: icdar2017
+  set: test
+
+
+log_dir: experiments
+logger : wandb
+train_label : cluster
+
+# only use when train on color
+grayscale : False
+
+data_augmentation : morph
+
+# base lr 5e-4 to 1e-5
+optimizer_options: 
+  optimizer: adam 
+  base_lr: 0.0001 
+  wd: 0 
+  final_lr: 0.00001
+  warmup_epochs : 5
+
+super_fancy_new_name: test_repository
+
+model :  
+    name : resnet56
+    num_clusters : 100
+    encoding : netrvlad
+
+train_options: 
+  epochs: 30 
+  batch_size: 1024                               
+  callback : early_stopping
+  callback_patience : 5
+
+  loss : triplet  
+  margin : 0.1
+  sampler_m : 16
+  length_before_new_iter: 512000
+
+eval_options : 
+    pca_dim : 400
+    gmp_alpha : 100
+
+test_batch_size: 512
+        
