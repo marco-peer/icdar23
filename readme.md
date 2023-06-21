@@ -2,9 +2,9 @@
 
 This repository contains the official code implementation of our paper 
 
-Marco Peer, Florian Kleber and Robert Sablatnig : **Unsupervised Writer Retrieval using NetRVLAD and Graph Similarity Reranking** 
+Marco Peer, Florian Kleber and Robert Sablatnig : **Towards Writer Retrieval for Historical Datasets**,
 
-which will be presented at ICDAR2023 this year. It is currently state of the art on the ICDAR17 (80.6% mAP) and ICDAR19 (93.2% mAP) dataset for writer retrieval. [Paper](https://arxiv.org/abs/2305.05358)
+an unsupervised approach using NetRVLAD and Similarity Graph Reranking, which will be presented at ICDAR 2023 this year. It is currently state of the art on the ICDAR17 (80.6% mAP) and ICDAR19 (93.2% mAP) dataset for writer retrieval. [Paper](https://arxiv.org/abs/2305.05358)
 
 ## Installation
 
