@@ -66,7 +66,7 @@ Please consider citing our paper if you find our resources helpful
 
     @InProceedings{Peer_2023_ICDAR,
         author    = {Peer, Marco and Kleber, Florian and Sablatnig, Robert},
-        title     = {Unsupervised Writer Retrieval using NetRVLAD and Graph Similarity Reranking},
+        title     = {Towards Writer Retrieval for Historical Datasets},
         booktitle = {accepted for 2023 International Conference on Document Analysis and Recognition, ICDAR2023},
         month     = {August},
         year      = {2023},
