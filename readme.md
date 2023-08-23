@@ -63,13 +63,15 @@ which creates the reranked descriptors and saves them. Refer to rerank.py for fu
 ## Citing
 
 Please consider citing our paper if you find our resources helpful
-
-    @InProceedings{Peer_2023_ICDAR,
-        author    = {Peer, Marco and Kleber, Florian and Sablatnig, Robert},
-        title     = {Towards Writer Retrieval for Historical Datasets},
-        booktitle = {accepted for 2023 International Conference on Document Analysis and Recognition, ICDAR2023},
-        month     = {August},
-        year      = {2023},
+    
+    @InProceedings{Peer_ICDAR2023,
+    author="Peer, Marco
+    and Kleber, Florian
+    and Sablatnig, Robert",
+    title="Towards Writer Retrieval for Historical Datasets",
+    booktitle="Document Analysis and Recognition - ICDAR 2023",
+    year="2023",
+    pages="411--427",
     }
 
 Feel free to reach out to us via mpeer(at)cvl.tuwien.ac.at in case you find errors or have questions about our paper.
