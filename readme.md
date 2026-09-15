@@ -1,10 +1,13 @@
 ![header](assets/header.png)
 
+$${\color{red}15/09/2026}$$: **There is a bug in the SGR implementation that exploits the order of the embeddings. Please use it with caution, I will try to fix it asap. Thanks to Tim Raven and Vincent Christlein for pointing it out.**
+
 This repository contains the official code implementation of our paper 
 
 Marco Peer, Florian Kleber and Robert Sablatnig : **Towards Writer Retrieval for Historical Datasets**,
 
 an unsupervised approach using NetRVLAD and Similarity Graph Reranking, which will be presented at ICDAR 2023 this year. It is currently state of the art on the ICDAR17 (80.6% mAP) and ICDAR19 (93.2% mAP) dataset for writer retrieval. [Paper](https://arxiv.org/abs/2305.05358)
+
 
 ## Installation
 
